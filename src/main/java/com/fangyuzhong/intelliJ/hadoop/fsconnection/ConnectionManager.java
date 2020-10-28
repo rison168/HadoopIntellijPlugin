@@ -34,8 +34,7 @@ import java.util.TimerTask;
  */
 
 @State(name = "HadoopNavigator.Project.ConnectionManager",
-        storages = {@com.intellij.openapi.components.Storage(file = "$PROJECT_CONFIG_DIR$/hdfsnavigator.xml",
-                        scheme = com.intellij.openapi.components.StorageScheme.DIRECTORY_BASED),
+        storages = {@com.intellij.openapi.components.Storage(file = "$PROJECT_CONFIG_DIR$/hdfsnavigator.xml"),
                     @com.intellij.openapi.components.Storage(file = "$PROJECT_FILE$")})
 public class ConnectionManager
         extends AbstractProjectComponent

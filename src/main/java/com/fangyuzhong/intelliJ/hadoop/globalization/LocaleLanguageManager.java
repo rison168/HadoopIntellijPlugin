@@ -75,7 +75,7 @@ public class LocaleLanguageManager  implements ApplicationComponent
     /**
      * 语言改变监听事件处理
      */
-    private ProjectLifecycleListener projectLifecycleListener = new ProjectLifecycleListener.Adapter()
+    private ProjectLifecycleListener projectLifecycleListener = new com.fangyuzhong.intelliJ.hadoop.options.Adapter()
     {
         Project project;
         public void projectComponentsInitialized(@NotNull Project project)

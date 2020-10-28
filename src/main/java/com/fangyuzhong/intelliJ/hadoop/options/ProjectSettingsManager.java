@@ -22,8 +22,7 @@ import org.jetbrains.annotations.Nullable;
  * 定义插件的配置初始化入口
  */
 @State(name = "HadoopNavigator.Project.Settings",
-        storages = {@com.intellij.openapi.components.Storage(file = "$PROJECT_CONFIG_DIR$/hdfsnavigator.xml",
-                scheme = com.intellij.openapi.components.StorageScheme.DIRECTORY_BASED),
+        storages = {@com.intellij.openapi.components.Storage(file = "$PROJECT_CONFIG_DIR$/hdfsnavigator.xml"),
                 @com.intellij.openapi.components.Storage(file = "$PROJECT_FILE$")})
 public class ProjectSettingsManager implements ProjectComponent, PersistentStateComponent<Element>
 {

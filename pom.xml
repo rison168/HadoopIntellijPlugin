@@ -12,7 +12,7 @@
     <!--设置hadoop版本-->
     <hadoop.2.version>3.0.0-alpha2</hadoop.2.version>
     <!--设置Intellij-IDEA的安装路径-->
-    <IntellijIde.dir>/home/hadoopuser/SoftwareDir/idea-IU-171.3780.95</IntellijIde.dir>
+    <IntellijIde.dir>/home/rison/opt/apps/idea</IntellijIde.dir>
   </properties>
   <dependencies>
     <dependency>

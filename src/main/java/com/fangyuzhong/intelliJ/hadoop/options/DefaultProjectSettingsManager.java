@@ -77,9 +77,8 @@ public class DefaultProjectSettingsManager implements ApplicationComponent,
     /*********************************************************
      *              ProjectLifecycleListener                 *
      *********************************************************/
-    private ProjectLifecycleListener projectLifecycleListener = new ProjectLifecycleListener.Adapter()
+    private ProjectLifecycleListener projectLifecycleListener = new com.fangyuzhong.intelliJ.hadoop.options.Adapter()
     {
-
         @Override
         public void projectComponentsInitialized(final Project project)
         {

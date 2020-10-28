@@ -35,7 +35,7 @@ import org.jetbrains.annotations.Nullable;
  * Created by fangyuzhong on 17-7-16.
  */
 @State(name = "HadoopNavigator.Project.FileSystemBrowserManager",
-        storages = {@Storage(file = "$PROJECT_CONFIG_DIR$/hdfsnavigator.xml", scheme = StorageScheme.DIRECTORY_BASED),
+        storages = {@Storage(file = "$PROJECT_CONFIG_DIR$/hdfsnavigator.xml"),
                     @Storage(file = "$PROJECT_FILE$")})
 public class FileSystemBrowserManager
         extends AbstractProjectComponent

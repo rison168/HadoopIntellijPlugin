@@ -77,7 +77,7 @@ public class ConnectionCache
     /**
      * 定义工程项目的生命周期处理事件类
      */
-    private ProjectLifecycleListener projectLifecycleListener = new ProjectLifecycleListener.Adapter()
+    private ProjectLifecycleListener projectLifecycleListener = new com.fangyuzhong.intelliJ.hadoop.options.Adapter()
     {
         /**
          * 工程Project组件初始化后处理

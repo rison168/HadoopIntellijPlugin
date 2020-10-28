@@ -344,7 +344,7 @@ public abstract class ValueSelector<T extends Presentable>
 
         public SelectValueAction(T value)
         {
-            super(null,null, ValueSelector.this.options.is(ValueSelectorOption.HIDE_ICON) ? null : value.getIcon());
+            super(ValueSelector.this.options.is(ValueSelectorOption.HIDE_ICON) ? null : value.getIcon());
             this.value = value;
         }
 
@@ -366,7 +366,7 @@ public abstract class ValueSelector<T extends Presentable>
     {
         AddValueAction()
         {
-            super(null,null, Icons.ACTION_ADD);
+            super(Icons.ACTION_ADD);
         }
 
         public void actionPerformed(AnActionEvent e)
@@ -580,7 +580,7 @@ public abstract class ValueSelector<T extends Presentable>
                     g.setColor(lineBorder.getLineColor());
                 } else
                 {
-                    g.setColor(UIUtil.getBorderColor());
+                    g.setColor(UIUtil.getFocusedBorderColor());
                 }
                 g.drawRect(1, 1, width - 3, height - 3);
                 g.setColor(UIUtil.getPanelBackground());

@@ -84,4 +84,9 @@ public class TabbedPane
     {
         super.dispose();
     }
+
+    @Override
+    public boolean isDisposed() {
+        return false;
+    }
 }

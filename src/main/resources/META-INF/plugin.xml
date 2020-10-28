@@ -1,13 +1,14 @@
 <idea-plugin>
+  <!-- 版本兼容 -->
+  <depends>com.intellij.modules.java</depends>
   <!--插件的ID-->
   <id>com.fangyuzhong.intelliJ.hadoop</id>
   <!--插件的名称-->
-  <name>基于IntelliJ IDEA 的Hadoop插件</name>
+  <name>基于IntelliJ IDEA2020 的Hadoop插件</name>
   <!--插件的版本-->
-  <version>1.0.1000.1</version>
+  <version>1.0.2020</version>
   <!--插件的作者描述-->
   <vendor email="906328924@qq.com" url="http://www.fangyuzhon.com">fangyuzhong</vendor>
-
   <!--插件描述-->
   <description><![CDATA[
       Enter short description for your plugin here.<br>
